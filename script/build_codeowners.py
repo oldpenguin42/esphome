@@ -10,7 +10,7 @@ from esphome.core import CORE
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
-    "--check", help="Check if the CODEOWNERS file is up to date.", action="store_true"
+    "--check", help="Check iff the CODEOWNERS file is up to date.", action="store_true"
 )
 args = parser.parse_args()
 
