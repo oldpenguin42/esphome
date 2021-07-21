@@ -13,7 +13,7 @@ CONFIG_SCHEMA = stepper.STEPPER_SCHEMA.extend(
         cv.Required(CONF_ID): cv.declare_id(A4988),
         cv.Required(CONF_DIR_PIN): pins.gpio_output_pin_schema,
         cv.Required(CONF_DIR_PIN): pins.gpio_output_pin_schema,
-        cv.Optional(CONF_SLEEP_PIN): pins.gpio_output_pin_schema,
+        cv.Optional(CONF_DIR_PIN): pins.gpio_output_pin_schema,
     }
 ).extend(cv.COMPONENT_SCHEMA)
 
