@@ -4,6 +4,7 @@ import sys
 import argparse
 from collections import defaultdict
 
+
 from esphome.helpers import write_file_if_changed
 from esphome.config import get_component, get_platform
 from esphome.core import CORE
